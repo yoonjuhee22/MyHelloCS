@@ -16,5 +16,10 @@ namespace MyHelloCS
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("주희가 만들었다!!!!!!!", "안뇨오오오오오오오옹ㅎㅎ", MessageBoxButtons.OK,MessageBoxIcon.Warning);
+        }
     }
 }
